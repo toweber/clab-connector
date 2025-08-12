@@ -287,7 +287,7 @@ class TopologyIntegrator:
             "namespace": f"clab-{self.topology.name}",
             "node_user": "admin-sros",
             "username": "admin",
-            "password": "NokiaSros1!",
+            "password": "admin",
             "ssh_pub_keys": ssh_pub_keys,
             "node_selector": "containerlab=managedSros",
         }

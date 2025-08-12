@@ -19,7 +19,7 @@ class NokiaSROSNode(Node):
     """
 
     SROS_USERNAME = "admin"
-    SROS_PASSWORD = "NokiaSros1!"
+    SROS_PASSWORD = "admin"
     NODE_TYPE = "sros"
     GNMI_PORT = "57400"
     VERSION_PATH = ".system.information.version"

@@ -120,7 +120,7 @@ class ManifestGenerator:
             "namespace": namespace,
             "node_user": "admin-sros",
             "username": "admin",
-            "password": "NokiaSros1!",
+            "password": "admin",
             "ssh_pub_keys": self.topology.ssh_pub_keys or [],
             "node_selector": "containerlab=managedSros",
         }
